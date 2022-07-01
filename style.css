@@ -1,0 +1,88 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  /*border: 2px solid blue;*/
+  height: 1000vu;
+  width: 500px;
+  margin-left: 180px;
+  background-color: cyan;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    /*border: 5px solid red;*/
+}
+.f1{
+   /*border: 2px solid black;*/ 
+   width: 250px;
+   text-align: center;
+   height: 300px;
+   font-family: 'Indie Flower', cursive;
+}
+
+.f2,img{
+    height: 300px;
+    width: 250px;
+    box-shadow: inset;
+  box-shadow: 7px 5px 10px rgb(18, 26, 32);
+}
+
+.btn{
+    height: 30px;
+    width: 85px;
+    border: 1px solid gray;
+    background-color: chocolate;
+    color: bisque;
+    border-radius: 5px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+}
+
+.head2{
+    border: 1px solid black;
+    background-image: linear-gradient(to right,rgb(18, 78, 18),rgb(138, 138, 201));
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.img2_1{
+    width: 500px;
+    height: 300px;
+    /*border: 2px solid red;*/
+    box-shadow: inset;
+  box-shadow: 7px 5px 10px rgb(18, 26, 32);
+}
+.para{
+    background-color: burlywood;
+    font-family: 'Indie Flower', cursive;
+}
+.para,h3{
+    text-align: center;
+}
+
+/*footer*/
+
+.footer{
+    background-color: rgb(231, 220, 211);
+    text-align: center;
+}
+
+.get{
+    font-size: medium;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.con{
+    font-family: 'Anton', sans-serif;
+}
